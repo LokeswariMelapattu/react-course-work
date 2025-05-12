@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="2" failures="0" errors="0" time="282.511">
+    <testsuite name="components/__tests__/RequestStatus.test.jsx" timestamp="2025-01-18T17:50:29.538Z" hostname="loki" tests="2" failures="0" errors="0" skipped="0" time="0.025">
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component, inside which is an element with id &apos;request-status&apos;" time="0.019">
+        </testcase>
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component with the correct status" time="0.003">
+        </testcase>
+    </testsuite>
+</testsuites>

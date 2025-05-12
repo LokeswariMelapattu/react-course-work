@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="4" failures="0" errors="0" time="2300.92">
+    <testsuite name="components/__tests__/App.test.jsx" timestamp="2025-02-15T17:11:28.262Z" hostname="loki" tests="4" failures="0" errors="0" skipped="0" time="0.232">
+        <testcase classname="components/__tests__/App.test.jsx" name="App Component &gt; renders without crashing" time="0.099">
+            <system-out>
+[33mfalse[39m
+
+            </system-out>
+            <system-err>
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+            </system-err>
+        </testcase>
+        <testcase classname="components/__tests__/App.test.jsx" name="App Component &gt; renders AppContent component" time="0.062">
+            <system-out>
+[33mfalse[39m
+
+            </system-out>
+        </testcase>
+        <testcase classname="components/__tests__/App.test.jsx" name="App Component &gt; renders navigation links for unauthenticated user" time="0.027">
+            <system-out>
+[33mfalse[39m
+
+            </system-out>
+        </testcase>
+        <testcase classname="components/__tests__/App.test.jsx" name="App Component &gt; renders navigation links for authenticated user" time="0.036">
+            <system-out>
+[33mtrue[39m
+
+            </system-out>
+        </testcase>
+    </testsuite>
+</testsuites>

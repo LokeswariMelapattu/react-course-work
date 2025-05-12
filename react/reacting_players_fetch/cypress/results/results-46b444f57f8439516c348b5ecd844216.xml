@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.269" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-01-18T17:54:55" tests="0" file="cypress\e2e\getRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: GET" timestamp="2025-01-18T17:54:55" tests="4" time="6.267" failures="1">
+    <testcase name="Requests: GET should render players in a list with id &quot;#players-list&quot;" time="1.000" classname="should render players in a list with id &quot;#players-list&quot;">
+    </testcase>
+    <testcase name="Requests: GET should render players as focusable links inside list items" time="0.232" classname="should render players as focusable links inside list items">
+    </testcase>
+    <testcase name="Requests: GET should not show player status before a link is clicked" time="0.211" classname="should not show player status before a link is clicked">
+    </testcase>
+    <testcase name="Requests: GET should show player status when player link is clicked" time="0.000" classname="should show player status when player link is clicked">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;active&apos; within the element: &lt;p#player-status&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'active' within the element: <p#player-status> but never did.
+    at Context.eval (webpack://players_fetch/./cypress/e2e/getRequests.cy.js:67:35)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

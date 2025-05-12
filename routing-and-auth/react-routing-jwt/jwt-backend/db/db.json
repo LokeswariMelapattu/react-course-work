@@ -1,0 +1,239 @@
+{
+  "users": [
+    {
+      "id": "8bfda190bac611eeb5ed13f58586f2de",
+      "name": "Admin",
+      "email": "admin@email.com",
+      "password": "$2a$10$YWCMg5L4ObrnyopbKUp6IuLVJA47YJQ7Z2PWs6sIIafkpDpdYvZCy",
+      "role": "admin"
+    },
+    {
+      "id": "8c409e00bac611eeb5ed13f58586f2de",
+      "name": "Admin4",
+      "email": "admin4@email.com",
+      "password": "$2a$10$GMDGxk9TZDLuox0dgqc4se8qnfBXdyoAAjTPhKyz9Alu2O5rAz.jq",
+      "role": "admin"
+    },
+    {
+      "id": "8c4b7370bac611eeb5ed13f58586f2de",
+      "name": "Customer4",
+      "email": "customer4@email.com",
+      "password": "$2a$10$YBJxyXTBkyyQEyIX.4d5d.sCXYVnwCxoIoMVajRFYrNpV66o5yS0S",
+      "role": "customer"
+    },
+    {
+      "id": "8c5621d0bac611eeb5ed13f58586f2de",
+      "name": "Admin5",
+      "email": "admin5@email.com",
+      "password": "$2a$10$L829ioaX8wsSxkVYPxmMVOEo4RP58Nz6YxNzZrjdPZ466z90/Glyu",
+      "role": "admin"
+    },
+    {
+      "id": "8c6256d0bac611eeb5ed13f58586f2de",
+      "name": "Customer5",
+      "email": "customer5@email.com",
+      "password": "$2a$10$Lg3w/GxevixtL8Qhd9qdSedkl5AXngYZrdwBmXS53.AMCfrlSMW2S",
+      "role": "customer"
+    },
+    {
+      "id": "8c159660bac611eeb5ed13f58586f2de",
+      "name": "Admin2",
+      "email": "admin2@email.com",
+      "password": "$2a$10$bbypFItgLIpthUOwPtakLuV04dAKizew8DZW57djMWIoYSZiZzShC",
+      "role": "customer"
+    },
+    {
+      "id": "8c2092e0bac611eeb5ed13f58586f2de",
+      "name": "Customer2",
+      "email": "customer2@email.com",
+      "password": "$2a$10$mooFdw4m2gYkjCvutc8UZ.1QkugjI.CtLh8fgX9rf4Lpz26NtvG6C",
+      "role": "customer"
+    },
+    {
+      "id": "8c0a72d0bac611eeb5ed13f58586f2de",
+      "name": "Customer",
+      "email": "customer@email.com",
+      "password": "$2a$10$43eeSsSVfIcJrXghPhzNM.rB/d.fkZk6uBNgne1r4fcPbxIf2nVPW",
+      "role": "customer"
+    },
+    {
+      "id": "4ec58210e42e11efb6bfa3ac0ee2105a",
+      "name": "jip",
+      "email": "jip@email.com",
+      "password": "$2a$10$NH5sjBBTzgCnJiRrUK3L/OidnoBgXnE/sQuZdHDHaGshtel2uPgPO",
+      "role": "customer"
+    },
+    {
+      "id": "b209f400e42e11ef969ebf11792b08c2",
+      "name": "jip",
+      "email": "pii@email.com",
+      "password": "$2a$10$eTaPPNw1.7PV1T84hLfn1O2N4fZ5PXL6o785gcQ/0EF/5UDUMb13i",
+      "role": "customer"
+    }
+  ],
+  "products": [
+    {
+      "id": "8c66eab0bac611eeb5ed13f58586f2de",
+      "name": "Incredible Wooden Towels",
+      "price": 97,
+      "image": "http://placeimg.com/640/480/cats",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016"
+    },
+    {
+      "id": "8c6786f0bac611eeb5ed13f58586f2de",
+      "name": "Tasty Granite Gloves",
+      "price": 480,
+      "image": "http://placeimg.com/640/480/technics",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients"
+    },
+    {
+      "id": "8c682330bac611eeb5ed13f58586f2de",
+      "name": "Practical Steel Chicken",
+      "price": 886,
+      "image": "http://placeimg.com/640/480/sports",
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J"
+    },
+    {
+      "id": "8c684a40bac611eeb5ed13f58586f2de",
+      "name": "Handcrafted Metal Mouse",
+      "price": 567,
+      "image": "http://placeimg.com/640/480/business",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit"
+    },
+    {
+      "id": "8c689860bac611eeb5ed13f58586f2de",
+      "name": "Sleek Metal Fish",
+      "price": 171,
+      "image": "http://placeimg.com/640/480/sports",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design"
+    },
+    {
+      "id": "8c68bf70bac611eeb5ed13f58586f2de",
+      "name": "Awesome Cotton Computer",
+      "price": 137,
+      "image": "http://placeimg.com/640/480/animals",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016"
+    },
+    {
+      "id": "8c68e680bac611eeb5ed13f58586f2de",
+      "name": "Practical Plastic Mouse",
+      "price": 566,
+      "image": "http://placeimg.com/640/480/food",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit"
+    },
+    {
+      "id": "8c6934a0bac611eeb5ed13f58586f2de",
+      "name": "Flammable Plastic Gloves",
+      "price": 795,
+      "image": "http://placeimg.com/640/480/city",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support"
+    },
+    {
+      "id": "8c6982c0bac611eeb5ed13f58586f2de",
+      "name": "Intelligent Concrete Salad",
+      "price": 789,
+      "image": "http://placeimg.com/640/480/fashion",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design"
+    },
+    {
+      "id": "8c69d0e0bac611eeb5ed13f58586f2de",
+      "name": "Rustic Metal Shoes",
+      "price": 309,
+      "image": "http://placeimg.com/640/480/cats",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016"
+    },
+    {
+      "id": "8c6a1f00bac611eeb5ed13f58586f2de",
+      "name": "Generic Granite Sausages",
+      "price": 37.3,
+      "image": "http://placeimg.com/640/480/sports",
+      "description": "The Football Is Good For Training And Recreational Purposes"
+    },
+    {
+      "id": "8c6a4610bac611eeb5ed13f58586f2de",
+      "name": "Gorgeous Metal Towels",
+      "price": 93,
+      "image": "http://placeimg.com/640/480/nature",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit"
+    },
+    {
+      "id": "8c6a6d20bac611eeb5ed13f58586f2de",
+      "name": "Awesome Soft Towels",
+      "price": 444,
+      "image": "http://placeimg.com/640/480/sports",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive"
+    },
+    {
+      "id": "8c6abb40bac611eeb5ed13f58586f2de",
+      "name": "Unbranded Soft Table",
+      "price": 8,
+      "image": "http://placeimg.com/640/480/animals",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit"
+    },
+    {
+      "id": "8c6ae250bac611eeb5ed13f58586f2de",
+      "name": "Sleek Wooden Hat",
+      "price": 748,
+      "image": "http://placeimg.com/640/480/sports",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016"
+    },
+    {
+      "id": "8c6479b0bac611eeb5ed13f58586f2de",
+      "name": "Fantastic Cotton Chair",
+      "price": 102,
+      "image": "http://placeimg.com/640/480/nature",
+      "description": "This chair is Fantastic. And it's made out of cotton!"
+    },
+    {
+      "id": "8c64c7d0bac611eeb5ed13f58586f2de",
+      "name": "Lovely Marble Car",
+      "price": 90,
+      "image": "http://placeimg.com/640/480/city",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients"
+    },
+    {
+      "id": "b32265b0e42a11efb6bfa3ac0ee2105a",
+      "name": "laippa",
+      "price": 666,
+      "description": "nii hiano"
+    }
+  ],
+  "orders": [
+    {
+      "id": "892e5b10c04f11eebd256b274196aae7",
+      "items": [
+        {
+          "product": {
+            "id": "8c6479b0bac611eeb5ed13f58586f2de",
+            "name": "Fantastic Cotton Chair",
+            "price": 102
+          },
+          "quantity": 13
+        }
+      ],
+      "customerId": "8c0a72d0bac611eeb5ed13f58586f2de"
+    },
+    {
+      "id": "328272a0d17611eea78f6736e046050c",
+      "items": [
+        {
+          "product": {
+            "id": "8c656410bac611eeb5ed13f58586f2de",
+            "name": "Small Cotton Chicken",
+            "price": 173.99
+          },
+          "quantity": 4
+        },
+        {
+          "product": {
+            "id": "8c667580bac611eeb5ed13f58586f2de",
+            "name": "Ergonomic Plastic Bike",
+            "price": 56
+          },
+          "quantity": 3
+        }
+      ],
+      "customerId": "8c0a72d0bac611eeb5ed13f58586f2de"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.479" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-02-07T22:08:48" tests="0" file="cypress/e2e/network/deleteRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: DELETE" timestamp="2024-02-07T22:08:48" tests="2" time="1.473" failures="0">
+    <testcase name="Requests: DELETE should successfully complete deleting a player" time="0.927" classname="should successfully complete deleting a player">
+    </testcase>
+    <testcase name="Requests: DELETE should not delete a player if DELETE-request fails" time="0.492" classname="should not delete a player if DELETE-request fails">
+    </testcase>
+  </testsuite>
+</testsuites>

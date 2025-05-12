@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="3" failures="0" errors="0" time="373.398">
+    <testsuite name="components/__tests__/SelectedPlayer.test.jsx" timestamp="2025-02-01T11:56:47.576Z" hostname="loki" tests="3" failures="0" errors="0" skipped="0" time="0.039">
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should render active player data correctly" time="0.028">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should render inactive player data correctly" time="0.005">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should not render if selected player is null" time="0.002">
+        </testcase>
+    </testsuite>
+</testsuites>

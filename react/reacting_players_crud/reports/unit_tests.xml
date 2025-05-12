@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="15" failures="0" errors="0" time="2.818">
+    <testsuite name="components/__tests__/AddPlayer.test.jsx" timestamp="2025-01-18T21:22:19.366Z" hostname="loki" tests="2" failures="0" errors="0" skipped="0" time="0.274">
+        <testcase classname="components/__tests__/AddPlayer.test.jsx" name="AddPlayer &gt; calls the handesubmit function with the input value when the form is submitted" time="0.224">
+        </testcase>
+        <testcase classname="components/__tests__/AddPlayer.test.jsx" name="AddPlayer &gt; clears the input when the form is submitted" time="0.049">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/ListPlayer.test.jsx" timestamp="2025-01-18T21:22:19.370Z" hostname="loki" tests="4" failures="0" errors="0" skipped="0" time="0.347">
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; renders a list item with the player&apos;s id as its id" time="0.174">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; displays the player name inside the anchor element" time="0.074">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; calls the onClick prop with the player id when the link is clicked" time="0.051">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; anchor should be focusable via the keyboard (by pressing the tab key)" time="0.046">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/ListPlayers.test.jsx" timestamp="2025-01-18T21:22:19.373Z" hostname="loki" tests="2" failures="0" errors="0" skipped="0" time="0.25">
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a list with id &quot;players-list&quot;" time="0.172">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a ListPlayer for each player in the players prop" time="0.075">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/RequestStatus.test.jsx" timestamp="2025-01-18T21:22:19.375Z" hostname="loki" tests="2" failures="0" errors="0" skipped="0" time="0.029">
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component, inside which is an element with id &apos;request-status&apos;" time="0.024">
+        </testcase>
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component with the correct status" time="0.004">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/SelectedPlayer.test.jsx" timestamp="2025-01-18T21:22:19.379Z" hostname="loki" tests="5" failures="0" errors="0" skipped="0" time="0.333">
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer &gt; displays the selected player information when a player is passed as a prop with correct ui" time="0.045">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer &gt; should not render if selected player is null" time="0.013">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer &gt; calls the handleDelete function with the player id when the delete button is clicked" time="0.012">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer &gt; calls the handleUpdate function with the updated player active state when the update button is clicked" time="0.023">
+            <system-out>
+a
+updated
+update
+
+            </system-out>
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer &gt; should not call handleUpdate if checkbox is clicked twice (aka player state is not changed)" time="0.237">
+            <system-out>
+a
+updated
+
+a
+not updated
+
+            </system-out>
+        </testcase>
+    </testsuite>
+</testsuites>

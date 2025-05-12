@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.262" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-02-07T22:01:20" tests="0" file="cypress/e2e/network/putRequest.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: PUT" timestamp="2024-02-07T22:01:20" tests="2" time="2.257" failures="0">
+    <testcase name="Requests: PUT should be able to update a players active-state correctly in the frontend and the backend. " time="1.570" classname="should be able to update a players active-state correctly in the frontend and the backend. ">
+    </testcase>
+    <testcase name="Requests: PUT Should not update the player if update fails." time="0.630" classname="Should not update the player if update fails.">
+    </testcase>
+  </testsuite>
+</testsuites>

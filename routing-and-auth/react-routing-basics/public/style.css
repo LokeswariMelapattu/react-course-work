@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background: #222;
+    padding: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ddd;
+  }
+  
+  nav button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  
+  nav button:hover {
+    background: darkred;
+  }
+  
+  /* Container Styles */
+  .container {
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+  }
+  
+  /* Form Styles */
+  form input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  form button:hover {
+    background: #218838;
+  }
+  
+  /* VIP Area */
+  .vip-container {
+    background-color: #f7e7ce; /* Champagne color */
+    color: #5a3e1b; /* Brownish text */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .vip-container h1 {
+    font-size: 24px;
+  }
+  
+  .vip-container p {
+    font-size: 18px;
+  }
+
+  /* Last Visited Pages - Horizontal Layout */
+.last-visited-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  flex-wrap: wrap; /* Ensure responsiveness */
+}
+
+.last-visited-link {
+  background: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.last-visited-link:hover {
+  background: #0056b3;
+}
+
+
+/* List Styling */
+.container ul {
+  list-style: none; /* Removes bullet points */
+  padding: 0;
+  text-align: left; /* Align text to the left */
+}
+
+.container li {
+  background: #f8f9fa;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Ensures the text is aligned left */
+}
+
+.container li h3 {
+  margin: 0 0 5px;
+  color: #007bff;
+}

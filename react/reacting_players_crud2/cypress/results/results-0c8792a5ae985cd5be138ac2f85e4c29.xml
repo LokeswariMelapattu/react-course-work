@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.231" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2025-01-18T23:03:02" tests="0" file="cypress\e2e\network\getRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: GET" timestamp="2025-01-18T23:03:02" tests="4" time="19.226" failures="4">
+    <testcase name="Requests: GET should render players in a list with id &quot;#players-list&quot;" time="0.000" classname="should render players in a list with id &quot;#players-list&quot;">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Loading...&apos; within the element: &lt;div#request-status&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Loading...' within the element: <div#request-status> but never did.
+    at checkRequestStatus (webpack://players_crud2/./cypress/support/utils.js:56:35)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/getRequests.cy.js:23:23)]]></failure>
+    </testcase>
+    <testcase name="Requests: GET should render players as focusable links inside list items" time="0.000" classname="should render players as focusable links inside list items">
+      <failure message="A request callback passed to `cy.intercept()` timed out after returning a Promise that took more than the `defaultCommandTimeout` of `4000ms` to resolve.
+
+If the request callback is expected to take longer than `4000ms`, increase the configured `defaultCommandTimeout` value.
+
+Route: {
+  &quot;url&quot;: &quot;**/api/players&quot;
+}
+
+Intercepted request: {
+  &quot;headers&quot;: {
+    &quot;host&quot;: &quot;localhost:3001&quot;,
+    &quot;proxy-connection&quot;: &quot;keep-alive&quot;,
+    &quot;sec-ch-ua&quot;: &quot;\&quot;Not=A?Brand\&quot;;v=\&quot;99\&quot;, \&quot;Chromium\&quot;;v=\&quot;118\&quot;&quot;,
+    &quot;sec-ch-ua-mobile&quot;: &quot;?0&quot;,
+    &quot;authorization&quot;: &quot;Basic dXNlcjpwYXNzd29yZA==&quot;,
+    &quot;user-agent&quot;: &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.17.0 Chrome/118.0.5993.159 Electron/27.3.10 Safari/537.36&quot;,
+    &quot;sec-ch-ua-platform&quot;: &quot;\&quot;Windows\&quot;&quot;,
+    &quot;accept&quot;: &quot;*/*&quot;,
+    &quot;origin&quot;: &quot;http://localhost:4173&quot;,
+    &quot;sec-fetch-site&quot;: &quot;same-site&quot;,
+    &quot;sec-fetch-mode&quot;: &quot;cors&quot;,
+    &quot;sec-fetch-dest&quot;: &quot;empty&quot;,
+    &quot;referer&quot;: &quot;http://localhost:4173/&quot;,
+    &quot;accept-encoding&quot;: &quot;gzip, deflate, br&quot;,
+    &quot;accept-language&quot;: &quot;en-US&quot;
+  },
+  &quot;url&quot;: &quot;http://localhost:3001/api/players/&quot;,
+  &quot;method&quot;: &quot;GET&quot;,
+  &quot;httpVersion&quot;: &quot;1.1&quot;,
+  &quot;resourceType&quot;: &quot;fetch&quot;,
+  &quot;query&quot;: {},
+  &quot;body&quot;: &quot;&quot;,
+  &quot;responseTimeout&quot;: 30000
+}
+
+https://on.cypress.io/intercept" type="CypressError"><![CDATA[CypressError: A request callback passed to `cy.intercept()` timed out after returning a Promise that took more than the `defaultCommandTimeout` of `4000ms` to resolve.
+
+If the request callback is expected to take longer than `4000ms`, increase the configured `defaultCommandTimeout` value.
+
+Route: {
+  "url": "**/api/players"
+}
+
+Intercepted request: {
+  "headers": {
+    "host": "localhost:3001",
+    "proxy-connection": "keep-alive",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"Chromium\";v=\"118\"",
+    "sec-ch-ua-mobile": "?0",
+    "authorization": "Basic dXNlcjpwYXNzd29yZA==",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.17.0 Chrome/118.0.5993.159 Electron/27.3.10 Safari/537.36",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "accept": "*/*",
+    "origin": "http://localhost:4173",
+    "sec-fetch-site": "same-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:4173/",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-US"
+  },
+  "url": "http://localhost:3001/api/players/",
+  "method": "GET",
+  "httpVersion": "1.1",
+  "resourceType": "fetch",
+  "query": {},
+  "body": "",
+  "responseTimeout": 30000
+}
+
+https://on.cypress.io/intercept
+    at <unknown> (http://localhost:4173/__cypress/runner/cypress_runner.js:137045:66)
+    at tryCatcher (http://localhost:4173/__cypress/runner/cypress_runner.js:1830:23)
+    at <unknown> (http://localhost:4173/__cypress/runner/cypress_runner.js:4209:41)
+    at tryCatcher (http://localhost:4173/__cypress/runner/cypress_runner.js:1830:23)
+    at Promise._settlePromiseFromHandler (http://localhost:4173/__cypress/runner/cypress_runner.js:1542:31)
+    at Promise._settlePromise (http://localhost:4173/__cypress/runner/cypress_runner.js:1599:18)
+    at Promise._settlePromise0 (http://localhost:4173/__cypress/runner/cypress_runner.js:1644:10)
+    at Promise._settlePromises (http://localhost:4173/__cypress/runner/cypress_runner.js:1720:18)
+    at _drainQueueStep (http://localhost:4173/__cypress/runner/cypress_runner.js:2430:12)
+    at _drainQueue (http://localhost:4173/__cypress/runner/cypress_runner.js:2423:9)
+    at Async._drainQueues (http://localhost:4173/__cypress/runner/cypress_runner.js:2439:5)
+    at Async.drainQueues (http://localhost:4173/__cypress/runner/cypress_runner.js:2309:14)
+From Your Spec Code:
+    at checkRequestStatus (webpack://players_crud2/./cypress/support/utils.js:56:35)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/getRequests.cy.js:41:23)]]></failure>
+    </testcase>
+    <testcase name="Requests: GET should not show player status before a link is clicked" time="0.000" classname="should not show player status before a link is clicked">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Loading...&apos; within the element: &lt;div#request-status&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Loading...' within the element: <div#request-status> but never did.
+    at checkRequestStatus (webpack://players_crud2/./cypress/support/utils.js:56:35)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/getRequests.cy.js:57:23)]]></failure>
+    </testcase>
+    <testcase name="Requests: GET should show player status when player link is clicked" time="0.000" classname="should show player status when player link is clicked">
+      <failure message="A request callback passed to `cy.intercept()` timed out after returning a Promise that took more than the `defaultCommandTimeout` of `4000ms` to resolve.
+
+If the request callback is expected to take longer than `4000ms`, increase the configured `defaultCommandTimeout` value.
+
+Route: {
+  &quot;url&quot;: &quot;**/api/players&quot;
+}
+
+Intercepted request: {
+  &quot;headers&quot;: {
+    &quot;host&quot;: &quot;localhost:3001&quot;,
+    &quot;proxy-connection&quot;: &quot;keep-alive&quot;,
+    &quot;sec-ch-ua&quot;: &quot;\&quot;Not=A?Brand\&quot;;v=\&quot;99\&quot;, \&quot;Chromium\&quot;;v=\&quot;118\&quot;&quot;,
+    &quot;sec-ch-ua-mobile&quot;: &quot;?0&quot;,
+    &quot;authorization&quot;: &quot;Basic dXNlcjpwYXNzd29yZA==&quot;,
+    &quot;user-agent&quot;: &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.17.0 Chrome/118.0.5993.159 Electron/27.3.10 Safari/537.36&quot;,
+    &quot;sec-ch-ua-platform&quot;: &quot;\&quot;Windows\&quot;&quot;,
+    &quot;accept&quot;: &quot;*/*&quot;,
+    &quot;origin&quot;: &quot;http://localhost:4173&quot;,
+    &quot;sec-fetch-site&quot;: &quot;same-site&quot;,
+    &quot;sec-fetch-mode&quot;: &quot;cors&quot;,
+    &quot;sec-fetch-dest&quot;: &quot;empty&quot;,
+    &quot;referer&quot;: &quot;http://localhost:4173/&quot;,
+    &quot;accept-encoding&quot;: &quot;gzip, deflate, br&quot;,
+    &quot;accept-language&quot;: &quot;en-US&quot;
+  },
+  &quot;url&quot;: &quot;http://localhost:3001/api/players/&quot;,
+  &quot;method&quot;: &quot;GET&quot;,
+  &quot;httpVersion&quot;: &quot;1.1&quot;,
+  &quot;resourceType&quot;: &quot;fetch&quot;,
+  &quot;query&quot;: {},
+  &quot;body&quot;: &quot;&quot;,
+  &quot;responseTimeout&quot;: 30000
+}
+
+https://on.cypress.io/intercept" type="CypressError"><![CDATA[CypressError: A request callback passed to `cy.intercept()` timed out after returning a Promise that took more than the `defaultCommandTimeout` of `4000ms` to resolve.
+
+If the request callback is expected to take longer than `4000ms`, increase the configured `defaultCommandTimeout` value.
+
+Route: {
+  "url": "**/api/players"
+}
+
+Intercepted request: {
+  "headers": {
+    "host": "localhost:3001",
+    "proxy-connection": "keep-alive",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"Chromium\";v=\"118\"",
+    "sec-ch-ua-mobile": "?0",
+    "authorization": "Basic dXNlcjpwYXNzd29yZA==",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.17.0 Chrome/118.0.5993.159 Electron/27.3.10 Safari/537.36",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "accept": "*/*",
+    "origin": "http://localhost:4173",
+    "sec-fetch-site": "same-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:4173/",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-US"
+  },
+  "url": "http://localhost:3001/api/players/",
+  "method": "GET",
+  "httpVersion": "1.1",
+  "resourceType": "fetch",
+  "query": {},
+  "body": "",
+  "responseTimeout": 30000
+}
+
+https://on.cypress.io/intercept
+    at <unknown> (http://localhost:4173/__cypress/runner/cypress_runner.js:137045:66)
+    at tryCatcher (http://localhost:4173/__cypress/runner/cypress_runner.js:1830:23)
+    at <unknown> (http://localhost:4173/__cypress/runner/cypress_runner.js:4209:41)
+    at tryCatcher (http://localhost:4173/__cypress/runner/cypress_runner.js:1830:23)
+    at Promise._settlePromiseFromHandler (http://localhost:4173/__cypress/runner/cypress_runner.js:1542:31)
+    at Promise._settlePromise (http://localhost:4173/__cypress/runner/cypress_runner.js:1599:18)
+    at Promise._settlePromise0 (http://localhost:4173/__cypress/runner/cypress_runner.js:1644:10)
+    at Promise._settlePromises (http://localhost:4173/__cypress/runner/cypress_runner.js:1720:18)
+    at _drainQueueStep (http://localhost:4173/__cypress/runner/cypress_runner.js:2430:12)
+    at _drainQueue (http://localhost:4173/__cypress/runner/cypress_runner.js:2423:9)
+    at Async._drainQueues (http://localhost:4173/__cypress/runner/cypress_runner.js:2439:5)
+    at Async.drainQueues (http://localhost:4173/__cypress/runner/cypress_runner.js:2309:14)
+From Your Spec Code:
+    at checkRequestStatus (webpack://players_crud2/./cypress/support/utils.js:56:35)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/getRequests.cy.js:70:23)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

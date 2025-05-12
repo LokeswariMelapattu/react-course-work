@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.758" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-02-07T22:08:54" tests="0" file="cypress/e2e/network/postRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: POST" timestamp="2024-02-07T22:08:54" tests="2" time="1.752" failures="0">
+    <testcase name="Requests: POST should be able to successfully add a new player to the backend, and then to the list of players" time="1.058" classname="should be able to successfully add a new player to the backend, and then to the list of players">
+    </testcase>
+    <testcase name="Requests: POST Should not add a new player if POST request fails" time="0.638" classname="Should not add a new player if POST request fails">
+    </testcase>
+  </testsuite>
+</testsuites>

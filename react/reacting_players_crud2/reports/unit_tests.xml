@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="21" failures="0" errors="0" time="4.36">
+    <testsuite name="components/__tests__/AddPlayer.test.jsx" timestamp="2025-01-19T17:13:48.721Z" hostname="loki" tests="2" failures="0" errors="0" skipped="0" time="0.317">
+        <testcase classname="components/__tests__/AddPlayer.test.jsx" name="AddPlayer &gt; calls the handesubmit function with the input value when the form is submitted" time="0.256">
+        </testcase>
+        <testcase classname="components/__tests__/AddPlayer.test.jsx" name="AddPlayer &gt; clears the input when the form is submitted" time="0.059">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/AuthUser.test.jsx" timestamp="2025-01-19T17:13:48.725Z" hostname="loki" tests="6" failures="0" errors="0" skipped="0" time="0.336">
+        <testcase classname="components/__tests__/AuthUser.test.jsx" name="AuthUser component &gt; Link text is &quot;Logout&quot;, when isLoggedIn is true" time="0.019">
+        </testcase>
+        <testcase classname="components/__tests__/AuthUser.test.jsx" name="AuthUser component &gt;  &quot;Go to register&quot; by default in link, &quot;login&quot; by default in button" time="0.009">
+        </testcase>
+        <testcase classname="components/__tests__/AuthUser.test.jsx" name="AuthUser component &gt; Text is &quot;Go to login&quot; when isLoggedIn is false and Link is clicked once, &quot;register&quot; in button" time="0.177">
+            <system-out>
+login
+
+            </system-out>
+        </testcase>
+        <testcase classname="components/__tests__/AuthUser.test.jsx" name="Logout: Called functions &gt; handleLogout is called when isLoggedIn is true and the logout link is clicked" time="0.006">
+            <system-out>
+logout
+
+            </system-out>
+        </testcase>
+        <testcase classname="components/__tests__/AuthUser.test.jsx" name="submit &gt; onLogin is called with username and password when isLogin is true" time="0.009">
+        </testcase>
+        <testcase classname="components/__tests__/AuthUser.test.jsx" name="submit &gt; onRegister is called with username and password when isLogin is false" time="0.116">
+            <system-out>
+login
+
+            </system-out>
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/ListPlayer.test.jsx" timestamp="2025-01-19T17:13:48.733Z" hostname="loki" tests="4" failures="0" errors="0" skipped="0" time="0.362">
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; renders a list item with the player&apos;s id as its id" time="0.19">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; displays the player name inside the anchor element" time="0.06">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; calls the onClick prop with the player id when the link is clicked" time="0.057">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; anchor should be focusable via the keyboard (by pressing the tab key)" time="0.054">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/ListPlayers.test.jsx" timestamp="2025-01-19T17:13:48.736Z" hostname="loki" tests="2" failures="0" errors="0" skipped="0" time="0.284">
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a list with id &quot;players-list&quot;" time="0.223">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a ListPlayer for each player in the players prop" time="0.06">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/RequestStatus.test.jsx" timestamp="2025-01-19T17:13:48.740Z" hostname="loki" tests="2" failures="0" errors="0" skipped="0" time="0.023">
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component, inside which is an element with id &apos;request-status&apos;" time="0.017">
+        </testcase>
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component with the correct status" time="0.003">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/SelectedPlayer.test.jsx" timestamp="2025-01-19T17:13:48.742Z" hostname="loki" tests="5" failures="0" errors="0" skipped="0" time="0.444">
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer &gt; displays the selected player information when a player is passed as a prop with correct ui" time="0.082">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer &gt; should not render if selected player is null" time="0.027">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer &gt; calls the handleDelete function with the player id when the delete button is clicked" time="0.009">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer &gt; calls the handleUpdate function with the updated player active state when the update button is clicked" time="0.026">
+            <system-out>
+a
+updated
+update
+
+            </system-out>
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer &gt; should not call handleUpdate if checkbox is clicked twice (aka player state is not changed)" time="0.298">
+            <system-out>
+a
+updated
+
+a
+not updated
+
+            </system-out>
+        </testcase>
+    </testsuite>
+</testsuites>
